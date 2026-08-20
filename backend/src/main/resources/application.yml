@@ -1,0 +1,49 @@
+server:
+  port: 8080
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  application:
+    name: mockmaster-backend
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mockmaster?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&nullCatalogMeansCurrent=true
+    username: root
+    password: root
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+mockmaster:
+  jwt-secret: mockmaster-jwt-secret-key
+  jwt-expire-hours: 24
+  upload-dir: D:\idea_workspace\MockMaster\uploads
+  upload-url-prefix: /upload
+  virtual-human:
+    enabled: true
+    service-id: 294750742793818112
+    app-id: 648bce89
+    api-key: 81f5a2b75b43306865f27a30442e8bcf
+    api-secret: ZDg3NjBjMTRhMGE4ZjI3YjZkMDVlZjNm
+    api-url: https://api.iflytek.com/v1/virtual-human/session
+
+xfyun:
+  avatar:
+    app-id: 052b4ffd # 交互平台-接口服务获取
+    api-key: a9b0ee3023b836b2707ed27c4d63cf9d # 交互平台-接口服务获取11
+    api-secret: OWExODA1YmYyZWQyNWJmNjViOTU1YWU1 # 交互平台-接口服务获取
+    interface-service-id: 302027731770675200 # 交互平台-接口服务ID（scene_id）
+    avatar-id: 110117005 # 交互平台-形象列表获取
+    vcn: x4_yuexiaoni_assist # 交互平台-声音列表获取
+    ws-url: ws://avatar.cn-huadong-1.xf-yun.com/v1/interact
