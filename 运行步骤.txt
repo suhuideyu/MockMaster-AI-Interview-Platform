@@ -1,0 +1,21 @@
+==============
+一、创建数据库：
+（建表语句在MockMaster\database\schema.sql）
+修改两个数据库连接：
+backend\src\main\resources\application.yml
+和database\import_questions.py
+题库导入命令：
+cd D:\idea_workspace\MockMaster\database
+python import_questions.py
+==========
+二、项目启动三个步骤：
+1.启动语音识别和语义模型：
+cd mock_ai_service
+python ai_server.py
+2.启动后端
+3.启动前端
+=========
+已下载到本地：
+python虚拟环境
+语义相似度模型paraphrase-multilingual-MiniLM
+语音识别模型small.pt
