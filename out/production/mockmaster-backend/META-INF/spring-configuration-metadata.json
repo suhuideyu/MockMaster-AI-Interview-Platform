@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "mockmaster.virtual-human",
+      "type": "com.mockmaster.backend.config.VirtualHumanProperties",
+      "sourceType": "com.mockmaster.backend.config.VirtualHumanProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mockmaster.virtual-human.api-key",
+      "type": "java.lang.String",
+      "sourceType": "com.mockmaster.backend.config.VirtualHumanProperties"
+    },
+    {
+      "name": "mockmaster.virtual-human.api-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.mockmaster.backend.config.VirtualHumanProperties"
+    },
+    {
+      "name": "mockmaster.virtual-human.api-url",
+      "type": "java.lang.String",
+      "sourceType": "com.mockmaster.backend.config.VirtualHumanProperties"
+    },
+    {
+      "name": "mockmaster.virtual-human.app-id",
+      "type": "java.lang.String",
+      "sourceType": "com.mockmaster.backend.config.VirtualHumanProperties"
+    },
+    {
+      "name": "mockmaster.virtual-human.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.mockmaster.backend.config.VirtualHumanProperties"
+    },
+    {
+      "name": "mockmaster.virtual-human.service-id",
+      "type": "java.lang.String",
+      "sourceType": "com.mockmaster.backend.config.VirtualHumanProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: mockmaster-backend
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mockmaster?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true&nullCatalogMeansCurrent=true
+    username: root
+    password: root
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+mockmaster:
+  jwt-secret: mockmaster-jwt-secret-key
+  jwt-expire-hours: 24
+  virtual-human:
+    enabled: true
+    service-id: 294750742793818112
+    app-id: 648bce89
+    api-key: 81f5a2b75b43306865f27a30442e8bcf
+    api-secret: ZDg3NjBjMTRhMGE4ZjI3YjZkMDVlZjNm
+    api-url: https://api.xf-yun.com/v1/private/hvcs
