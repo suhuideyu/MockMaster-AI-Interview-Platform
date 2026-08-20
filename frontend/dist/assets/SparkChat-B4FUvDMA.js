@@ -1,0 +1,1 @@
+import{_ as t,c as s,b as a,h as o}from"./index-D9Q-1IsG.js";const r={class:"spark-chat-page"},p={__name:"SparkChat",setup(_){return(c,e)=>(o(),s("div",r,[...e[0]||(e[0]=[a("h1",null,"讯飞星火聊天",-1),a("p",null,"该页面已创建，请根据需求补充聊天功能。",-1)])]))}},l=t(p,[["__scopeId","data-v-3efee659"]]);export{l as default};

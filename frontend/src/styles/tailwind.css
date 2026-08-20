@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --color-warm-bg: #f6efe8;
+  --brand-orange: #ff7a2d;
+}
+
+body{ font-family: 'Helvetica Neue', Arial, sans-serif; background: var(--color-warm-bg); }
